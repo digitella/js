@@ -1,3 +1,42 @@
+Add this code to your start page:
+
+<link rel='manifest' href='/manifest.webmanifest'>
+
+---- /// ----
+
+Add this code to your manifest.webmanifest file:
+
+{
+	"dir" : "ltr",
+	"lang" : "en",
+	"name" : "Propel",
+	"scope" : "/",
+	"display" : "browser",
+	"start_url" : "https://propel3.blogspot.com/?m=1",
+	"short_name" : "Propel-Marketing.com",
+	"theme_color" : "transparent",
+	"description" : "Marketing MarTech",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : "",
+	"prefer_related_applications" : "false",
+	"icons" : [
+		{
+			"src": "https://propel3.blogspot.com/favicon.ico",
+			"sizes": "32x32 16x16"
+		},
+		{
+			"src": "https://propel3.blogspot.com/favicon.ico",
+			"sizes": "32x32 16x16"
+		}],
+	"screenshots" : [],
+	"generated" : "true"
+}
+
+
+--- /// ----
+
+
 // This is the service worker with the Cache-first network
 
 // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
