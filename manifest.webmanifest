@@ -2,7 +2,7 @@
 	"dir" : "ltr",
 	"lang" : "en",
 	"name" : "Propel",
-	"scope" : "/",
+	"scope" : "https://propel3.blogspot.com/",
 	"display" : "browser",
 	"start_url" : "https://propel3.blogspot.com/?m=1",
 	"short_name" : "Propel-Marketing.com",
